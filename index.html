@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AngularJS with Bower</title>
+    <meta charset="utf-8" />
+  </head>
+  <body ng-app="myApp">
+    <h1>Hello, {{ 'world' }}!</h1>
+    <footer ng-bind-html="::footerHtml"></footer>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script>
+      angular.
+        module('myApp', ['ngSanitize']).
+        run(['$rootScope', 'linkyFilter', ($rootScope, linkyFilter) => {
+          $rootScope.footerHtml =
+              `Created by <b>gkalpak</b> (${linkyFilter('kalpakas.g@gmail.com')}) ` +
+              `using AngularJS v${angular.version.full}.`;
+        }]);
+    </script>
+  </body>
+</html>

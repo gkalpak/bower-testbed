@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "gkalpak_bower-testbed",
+  "description": "A testbed project to play around with Bower stuff.",
+  "authors": [
+    "George Kalpakas <kalpakas.g@gmail.com>"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "angular": ">=1.8.3",
+    "angular-sanitize": ">=1.8.3"
+  }
+}
