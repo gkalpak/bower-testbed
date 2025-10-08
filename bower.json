@@ -12,7 +12,11 @@
     "node_modules"
   ],
   "dependencies": {
-    "angular": ">=1.8.3",
-    "angular-sanitize": ">=1.8.3"
+    "angular": "npm:@xlts.dev/angular#1.9.11",
+    "angular-sanitize": "npm:@xlts.dev/angular-sanitize#1.9.11"
+  },
+  "resolutions": {
+    "angular": "1.9.11",
+    "angular-sanitize": "1.9.11"
   }
 }

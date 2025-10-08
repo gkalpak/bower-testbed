@@ -11,6 +11,8 @@
   "author": "George Kalpakas <kalpakas.g@gmail.com>",
   "devDependencies": {
     "bower": "^1.8.14",
-    "http-server": "^14.1.1"
+    "bower-npm-resolver": "^0.11.0",
+    "http-server": "^14.1.1",
+    "npm": "^7.24.2"
   }
 }
